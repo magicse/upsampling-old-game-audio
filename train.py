@@ -40,7 +40,7 @@ def save_model(model, epoch, train_losses, val_losses, val_snrs, best_snr=None):
     }
     
     torch.save(checkpoint, model_path)
-    print(f"Модель сохранена: {model_path}")
+    print(f"Model Saved: {model_path}")
     
     
     weights_path = os.path.join(MODELS_DIR, f'audio_sr_weights_epoch_{epoch}.pth')
