@@ -6,7 +6,6 @@ Upsampler for old game audio from 8-bit 11025 Hz to 44100 Hz.
 **Features:** 
 - Converts 8-bit 11025 Hz WAV files to 44100 Hz
 - Supports batch processing
-- Optional dithering or filtering (if applicable)
 
 **Usage**
 - python inference.py
