@@ -4,7 +4,7 @@ Upsampler for old game audio from 8-bit 11025 Hz to 44100 Hz.
 - Upsamples old game audio from 11025 Hz to 44100 Hz, to improving playback quality.
 
 **Features:** 
-- Converts 8-bit 11025 Hz WAV files to 44100 Hz
+- Converts 11025 Hz WAV files to 44100 Hz
 - Supports batch processing
 
 **Usage**
